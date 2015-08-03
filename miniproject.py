@@ -18,11 +18,16 @@ def draw_art():
     brad.color("red")
     brad.goto(10,10)
     brad.speed(0.5)
-    for i in range (1,73):
+    for i in range (1,37):
         draw_square(brad)
-        brad.left(5)
+        brad.right(10)
 
     #brad.forward(300)
+
+
+    brad.goto(-100,-180)
+
+
     window.exitonclick()
 
 draw_art()
