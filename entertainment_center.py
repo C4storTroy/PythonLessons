@@ -1,3 +1,4 @@
+#some of my favourite movies, instances of class Movie
 import media
 import fresh_tomatoes
 
@@ -6,23 +7,18 @@ toy_story = media.Movie("Toy Story",
                          "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                          "https://www.youtube.com/watch?v=2BlMNH1QTeE")
 
-#print (toy_story.storyline)
 
 lord_of_the_rings = media.Movie("Lord Of The Rings",
                          "The Lord of the Rings is a film series consisting of three epic fantasy adventure films directed by Peter Jackson. They are based on the novel The Lord of the Rings by J. R. R. Tolkien. The films are subtitled The Fellowship of the Ring (2001), The Two Towers (2002) and The Return of the King (2003). They were distributed by New Line Cinema.",
                          "https://upload.wikimedia.org/wikipedia/en/8/87/Ringstrilogyposter.jpg",
                          "https://www.youtube.com/watch?v=aStYWD25fAQ")
 
-#print (avatar.storyline)
-
-#avatar.show_trailer()
 
 star_wars = media.Movie("Star Wars - The Force Awaken",
                       "The force rise again",
                       "http://i2.wp.com/bitcast-a-sm.bitgravity.com/slashfilm/wp/wp-content/images/star-wars-7-struzan-poster-full.jpg",
                       "https://www.youtube.com/watch?v=ngElkyQ6Rhs")
 
-#star_wars.show_trailer()
 
 the_warriors = media.Movie("The Warriors",
                       "In it, a New York City gang must return to their home turf after they are framed for the murder of a respected gang leader.",
@@ -40,6 +36,7 @@ conan_the_barbarian = media.Movie("Conan the Barbarian",
                       "https://upload.wikimedia.org/wikipedia/en/8/81/Conan_the_Barbarian_by_Renato_Casaro.jpg",
                       "https://www.youtube.com/watch?v=Y0cxNbz4yKc")
 
+#Array of movies
 movies = [toy_story, lord_of_the_rings, star_wars,the_warriors,school_of_rock,conan_the_barbarian]
 
 fresh_tomatoes.open_movies_page(movies)

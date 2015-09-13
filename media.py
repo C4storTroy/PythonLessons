@@ -1,4 +1,4 @@
-
+#Class movie: class that creates a movie with some attributes
 import webbrowser
 
 class Movie():
@@ -10,5 +10,6 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
+#Function to shows trailers
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
